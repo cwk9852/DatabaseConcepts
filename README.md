@@ -6,7 +6,6 @@ I modified the create script from the forward engineer from MySQL to utilize Pos
 datatype serial for primary keys. The forward engineer from MySQL workbench was significantly more readable than the data dump from psql.
 Conversely, data entry and generating insert statements was more fluid with PgAdmin.
 Full Schema including Inserts are included in the SQL file. Some details have been removed to prevent plagarism.
-The project essentially consisted of creating the operational database schema, and then demonstrating it via screenshots.
 
 **Video Store DB**
 ****
