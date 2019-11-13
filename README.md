@@ -7,7 +7,7 @@ datatype serial for primary keys. The forward engineer from MySQL workbench was 
 Conversely, data entry and generating insert statements was more fluid with PgAdmin.
 Full Schema including Inserts are included in the SQL file. Some details have been removed to prevent plagarism.
 The project essentially consisted of creating the operational database schema, and then demonstrating it via screenshots.
-****
+
 **Video Store DB**
 ****
 Given a brief summary of the Small Business Video Store business operation, a
@@ -179,7 +179,7 @@ transaction.
 
 Figure 21 – Description of staff table, records data about video store
 employees.  
-****
+
 **Data Manipulation Language(DML): Insert Statements**
 ****
 
@@ -255,7 +255,7 @@ Figure 38- Output for insert statements for academy award table.
 
 Figure 39 – Output for insert statements for movie has academy award
 table.
-****
+
 **DML: Queries and CRUD Operations**
 ****
 <span style="color:#4B69C6">SELECT</span><span style="color:#333333"> </span><span style="color:#777777">\*</span><span style="color:#333333"> </span><span style="color:#4B69C6">FROM</span><span style="color:#333333"> <span class="SpellE">academy\_award</span>;</span>
@@ -528,7 +528,7 @@ that depicted staff as being related to a single rental. The address
 relation was also depicted as a one-to-one relationship, which is
 inaccurate because customers, distributors, and staff may in-fact have
 the same address. The model was revised accordingly.
-****
+
 **References**
 ****
 The PostgreSQL Global Development Group. (n.d.). PostgreSQL:
