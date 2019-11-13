@@ -10,10 +10,10 @@ The project essentially consisted of creating the operational database schema, a
 ****
 **Video Store DB**
 ****
-Given a brief summary of the Smal Business Video Store business operation, a
+Given a brief summary of the Small Business Video Store business operation, a
 task was assigned to develop a PostgreSQL database to automate record
 keeping of inventory and business transactions. The final structure of
-the operational database consists of fourteen entity tables and four
+the database consists of fourteen entity tables and four
 association tables required to achieve many-to-many relationships. All
 tables were then successfully populated with an adequate quantity of
 sample data required to meet testing requirements, ensuring that all
@@ -21,7 +21,7 @@ business operations were supported.
 
 The database life cycle describes the stages involved in development of
 an implementation of a database. The process begins by gathering
-business requirements by examining the summary provided in Module 8.
+business requirements by examining the provided summary.
 Entities, attributes, and relationships were discovered, and
 relationship sentence pairs were developed.
 
@@ -164,8 +164,6 @@ Required by the M:M relationship.
 Figure 18- Description of movie\_has\_director, records contain only
 foreign keys, a movie id and a director id. Required by the M:M
 relationship.
-
- 
 
 ![](img/image151.jpg)
 
@@ -476,9 +474,9 @@ implementation, spanning many relational database management systems
 practices for design and maintenance of an operational database,
 although various methodologies exist such as Agile and Waterfall.
 
-There was the additionally the realization that a major challenge is
+I also came to the conclusion that a major challenge is
 ensuring the data your SQL returns is in fact the correct data. There
-are many instances where the output appears correct but are incorrect.
+are instances where the output appears correct but are incorrect.
 Perhaps you have queried the wrong table yet received a similar result.
 Throughout the duration of my project, this memorably occurred once:
 when querying for the contents of the movie\_has\_academy\_award table. Initially
